@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"..\output\main.o"
+"..\output\drv_rf24l01.o"
+"..\output\drv_spi.o"
+"..\output\drv_uart.o"
+"..\output\drv_button.o"
+"..\output\drv_delay.o"
+"..\output\drv_led.o"
+"..\output\startup_stm32f10x_hd.o"
+"..\output\core_cm3.o"
+"..\output\system_stm32f10x.o"
+"..\output\stm32f10x_gpio.o"
+"..\output\stm32f10x_iwdg.o"
+"..\output\stm32f10x_rcc.o"
+"..\output\stm32f10x_spi.o"
+"..\output\stm32f10x_usart.o"
+"..\output\stm32f10x_tim.o"
+--strict --scatter "..\output\Project_Rf24L01_Mdk.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\output\Project_Rf24L01_Mdk.map" -o ..\output\Project_Rf24L01_Mdk.axf

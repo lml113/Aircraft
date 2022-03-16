@@ -1,0 +1,11 @@
+stm32f401_mpu6050\pid.o: ..\HARDWARE\PID_Control\pid.c
+stm32f401_mpu6050\pid.o: ..\HARDWARE\PID_Control\pid.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Include/core_cm4.h
+stm32f401_mpu6050\pid.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Include/cmsis_version.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+stm32f401_mpu6050\pid.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+stm32f401_mpu6050\pid.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

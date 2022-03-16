@@ -1,0 +1,1 @@
+stm32f03c6tx_handle\startup_stm32f030x6.o: startup_stm32f030x6.s
